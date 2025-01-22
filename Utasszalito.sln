@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtasszalitoCLI", "UtasszalitoCLI\UtasszalitoCLI.csproj", "{07A3CA14-87B3-4FD7-A20B-AB20AEDC308F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D3B6035A-54E8-4C21-A4C6-18D6D357427D}"
+	ProjectSection(SolutionItems) = preProject
+		src\csharp.txt = src\csharp.txt
+		src\java.txt = src\java.txt
+		src\UTASSZALLITOK.pdf = src\UTASSZALLITOK.pdf
+		src\utasszallitok.txt = src\utasszallitok.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtasszalitokGUI", "UtasszalitokGUI\UtasszalitokGUI.csproj", "{5F81470A-6B56-48B5-AB77-66D4AF3E52A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A3CA14-87B3-4FD7-A20B-AB20AEDC308F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A3CA14-87B3-4FD7-A20B-AB20AEDC308F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A3CA14-87B3-4FD7-A20B-AB20AEDC308F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A3CA14-87B3-4FD7-A20B-AB20AEDC308F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F81470A-6B56-48B5-AB77-66D4AF3E52A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F81470A-6B56-48B5-AB77-66D4AF3E52A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F81470A-6B56-48B5-AB77-66D4AF3E52A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F81470A-6B56-48B5-AB77-66D4AF3E52A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
